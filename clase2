@@ -12,16 +12,16 @@ Lenguaje de programacion JAVASCRIPT
 	<meta charset="utf-8">	 <!-- Se definen los caracteres utilizados 0 "iso-8859-1"  -->
 	<title>Home</title>
 </head>
-<body>
+<body style="background-color: green; color: white;">
 	<header>        <!--HEADER-->           
-		<h1>Titulo</h1>
+		<h1 style="background-color: blue;font-family:Verdana;text-align: center;">Titulo</h1>
 		<h2>Titulo2</h2>
 	</header><!--ENCABEZADO -->
 
 	<nav> <!--Menu de Navegacion-->
-		<ul>
-			<li><a href="hola.html">Pagina 1</a></li>
-			<li><a href="../hola2.html">Pagina 2</a></li>
+		<ul style="background-color: red; color:orange;text-align: center;">
+			<li><a  style="color:orange;" href="hola.html">Pagina 1</a></li>
+			<li><a  style="color:orange;" href="../hola2.html">Pagina 2</a></li>
 		</ul>
 	</nav>
 
@@ -62,7 +62,12 @@ pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParr
 	<section><p>Texto del articulooooooo</p></section>
 </article>
 
-<img src="https://m.media-amazon.com/images/M/MV5BMjA0NDk4Mzc1Ml5BMl5BanBnXkFtZTgwNzQzMDA0NzM@._CR1005,73,680,1008_UX402_UY596._SY298_SX201_AL_.jpg" alt="Texto" height="500" width="500"> <!-- Imagenes obligatorio src y alt-->
+<img src="https://m.media-amazon.com/images/M/MV5BMjA0NDk4Mzc1Ml5BMl5BanBnXkFtZTgwNzQzMDA0NzM@._CR1005,73,680,1008_UX402_UY596._SY298_SX201_AL_.jpg" alt="Texto" height="500" width="500">
+
+<img src="foto.jpg" alt="Foto" height="100" width="150">
+
+
+ <!-- Imagenes obligatorio src y alt-->
 
 <footer>
 	 <address>Nicolas Yaquinta <br>
