@@ -1,0 +1,55 @@
+
+
+/*Comentarios en CSS
+Se puede determinar mas de un atributo separado por ; y mas de una etiqueta separados con ,
+
+Dentro del HTML se puede usar tambien con <style> 
+
+ body {
+	background-color: black;
+}
+
+</style>
+
+SIEMPRE DENTRO DEL HEAD
+
+*/
+ 
+
+ body {
+	background-image: url("fondo.jpg");
+	/*background-size: cover; completar todo el fondo con una sola imagen*/
+	background-attachment: fixed;
+}
+h1,h2{color: orange;
+text-align: center;
+font-family: "Pacifico";
+font-size: 40px;
+}
+
+header{
+	background-color: black;
+	margin-left: 500px;
+	width: 300px;
+	height: 30px;
+	padding: 50px;
+
+}
+nav{
+	font-size: 26px;
+	width: 200px;
+	background-color: red;
+	text-align: center;
+
+}
+p{
+	color: blue;
+}
+#rojo{
+	color: red;
+}
+.verde{
+
+	color: green;
+}
+
