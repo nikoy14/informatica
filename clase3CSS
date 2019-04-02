@@ -53,3 +53,9 @@ p{
 	color: green;
 }
 
+/*pseudo clases*/
+
+a:hover{
+	background-color: red;
+}
+
