@@ -1,0 +1,83 @@
+
+ <!--Lenguaje de marcado HTML
+Lenguaje de hojas de estilo CSS
+Lenguaje de programacion JAVASCRIPT  
+   -->
+<!--  -->
+
+
+<!DOCTYPE html>
+<html lang="es"> <!-- lang para determinar el idioma de la pagina  -->
+<head>
+	<meta charset="utf-8">	 <!-- Se definen los caracteres utilizados 0 "iso-8859-1"  -->
+	<title>Home</title>
+<link rel="stylesheet" type="text/css" href="pruebaestilo.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+</head>
+<body>
+	<header>        <!--HEADER-->           
+		<h1>Titulo</h1>
+		<h2>Titulo2</h2>
+	</header><!--ENCABEZADO -->
+
+	<nav> <!--Menu de Navegacion-->
+		<ul>
+			<li><a   href="hola.html">Pagina 1</a></li>
+			<li><a  href="../hola2.html">Pagina 2</a></li>
+		</ul>
+	</nav>
+
+<p>Parrafo prueba Parrafo prueba Parrafo prueba Parrafo 
+<br>
+pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo 
+<br>
+pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo pruebaParrafo prueba </p><!--PARRAFO -->
+<p>Mas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Parrafo pero separado</p> <!--&nbsp; para poner espacio   -->
+<hr> <!--Una linea horizontal que no se cierra-->
+<blockquote>Un texto citado</blockquote> <!-- Escribir citas-->
+
+
+<p>Listado de Elementos</p>
+<ul><!--Lista sin orden-->
+	<li>Elemento1</li>
+	<li>Elemento2</li>
+	<li>Elemento3</li>
+</ul>
+
+
+<ol><!--Lista con orden-->
+	<li>Elemento A</li>
+	<li>Elemento B</li>
+	<li>Elemento C</li>
+</ol>
+
+<p><a href="https://www.imdb.com/" target="_blank">LINK A IMDB</a></p> <!--Links URL ABSOLUTA target="_blank" (PESTAÑA NUEVA)-->
+<p><a href="hola.html">IR A HOLA</a></p><!--URL RELATIVA-->
+<p><a href="otras/hola2.html">IR A HOLA DOS</a></p><!--URL RELATIVA en otro directorio-->
+<p><a href="mailto:yaquintanicolas2@gmail.com">Contacto</a></p><!--Enviar correo-->
+<p><span> Esto no tiene estilo</span></p> <!--Par dar estilo-->
+<div></div> <!--Division en la pagina-->
+
+<article> <!--Articulo-->
+	<h1>Articulo 001</h1>
+	<p id="rojo">Texto del articulooooooo</p>
+	<section><p class="verde">Texto del articulooooooo</p></section>
+</article>
+
+<img src="https://m.media-amazon.com/images/M/MV5BMjA0NDk4Mzc1Ml5BMl5BanBnXkFtZTgwNzQzMDA0NzM@._CR1005,73,680,1008_UX402_UY596._SY298_SX201_AL_.jpg" alt="Texto" height="500" width="500">
+
+<img src="foto.jpg" alt="Foto" height="100" width="150">
+
+
+ <!-- Imagenes obligatorio src y alt-->
+
+<footer>
+	 <address>Nicolas Yaquinta <br>
+	 	<a href="mailto:yaquintanicolas2@gmail.com">Contacto</a></address>
+	</footer><!--Pie de pagina-->
+<section></section> <!--Secciones agrupa contenido relacionado-->
+
+</body>
+</html>
